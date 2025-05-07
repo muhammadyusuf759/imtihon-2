@@ -1,0 +1,54 @@
+.navbar_first_box {
+  @include d-flex(flex, 20px);
+  margin-top: 17px;
+}
+.link {
+  cursor: pointer;
+}
+
+.lang {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+}
+.form {
+  width: 728px;
+  height: 34px;
+  border: 1px solid #6682a9;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #c2cddd;
+}
+
+.navbar_left_box {
+  @include d-flex(flex, 15px);
+}
+
+.navbarr {
+  @include d-flex(flex, 10px);
+}
+
+.nav_icons {
+  cursor: pointer;
+}
+
+.big_navbar {
+  @include d-flex(flex, 0px);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.big_img {
+  padding-top: 15px;
+  width: 1450px;
+}
+
+.navbar {
+  padding-bottom: 17px;
+}

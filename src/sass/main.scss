@@ -1,0 +1,95 @@
+.big_title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24.61px;
+  line-height: 100%;
+  letter-spacing: 0.53px;
+  color: black;
+}
+
+.boxs {
+  max-width: 235px;
+  height: 432px;
+  box-shadow: 0px 4px 6px -2px #ffffff;
+  box-shadow: 0px 5px 10px -1px #eef6fa;
+}
+
+.flex {
+  @include d-flex(flex, 0px);
+  justify-content: space-between;
+  padding: 37px 16px 17px 16px;
+}
+
+.div_boxs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.img_box {
+  @include d-flex(flex, 0px);
+  justify-content: space-between;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.img_bigg {
+  max-width: 235px;
+}
+
+.rate {
+  padding-left: 5px;
+}
+
+.div {
+  position: relative;
+}
+
+.postion {
+  position: absolute;
+  top: 0;
+}
+
+.mini_boxs {
+  background-color: aqua;
+  margin-top: 50px;
+  width: 1300px;
+  height: 200px;
+  @include d-flex(flex, 0px);
+  justify-content: space-between;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 10px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.total_price_box {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.div_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.img{
+  width: 120px;
+  border-radius: 10px;
+}

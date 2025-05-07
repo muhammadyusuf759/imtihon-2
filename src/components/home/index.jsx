@@ -13,7 +13,10 @@ const HomeComponents = () => {
 
   return (
     <section className="container">
-      <img src={imgg} alt="" className="big_img" />
+      <div className="center">
+        <img src={imgg} alt="" className="big_img" />
+      </div>
+
       <div className="img_box">
         <img src={img1} alt="" className="pointer" />
         <img src={img2} alt="" className="pointer" />
@@ -26,6 +29,7 @@ const HomeComponents = () => {
         ))}
       </div>
     </section>
+    
   );
 };
 

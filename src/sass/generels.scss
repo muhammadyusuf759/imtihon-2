@@ -21,3 +21,26 @@ a {
   padding: 0 20px;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 1300px) {
+  .big_img {
+    max-width: 100%;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .link {
+    display: none;
+  }
+  .form {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+}

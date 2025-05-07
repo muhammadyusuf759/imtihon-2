@@ -22,6 +22,7 @@ const Card = ({ img, title, price, count, userPrice, id }) => {
         <span>{userPrice.toLocaleString()}So'm</span>
       </div>
     </>
+    
   );
 };
 

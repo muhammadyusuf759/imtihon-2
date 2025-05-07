@@ -51,7 +51,7 @@ const ShopContextProvider = ({ children }) => {
         localStorage.setItem("data", JSON.stringify(updateDateIncrament));
         return { data: updateDateIncrament };
       case "decrement":
-        const updateDatedecrement = state.data.map((value) => {
+        const updateDateDecrement = state.data.map((value) => {
           if (value.id === action.id) {
             return {
               ...value,
@@ -61,9 +61,8 @@ const ShopContextProvider = ({ children }) => {
           }
           return value;
         });
-
-        localStorage.setItem("data", JSON.stringify(updateDatedecrement));
-        return { data: updateDatedecrement };
+        localStorage.setItem("data", JSON.stringify(updateDateDecrement));
+        return { data: updateDateDecrement };
       case "delete":
         const deleteProducts = state.data.filter(
           (value) => value.id !== action.id

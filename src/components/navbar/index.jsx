@@ -59,7 +59,7 @@ const Navbar = () => {
         <div className="container">
           <div className="big_navbar">
             <div className="navbar_first_box">
-              <img src={logo} alt="" />
+              <img src={logo} alt="" className="logo" />
               <img src={link} alt="" className="link" />
               <form>
                 <input
